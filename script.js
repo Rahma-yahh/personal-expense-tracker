@@ -5,7 +5,7 @@ const pesanPeringatan = document.getElementById("pesanPeringatan");
 const badgeTotalPesan = document.getElementById("badgeDaftarPengeluaran");
 const listPengeluaran = document.getElementById("listPengeluaran");
 
-let dataPengeluaran = JSON.parse(localStorage.getItem('formPengeluaran')) || [];
+let dataPengeluaran = JSON.parse(localStorage.getItem('dataPengeluaran')) || [];
 
 function SimpanData() {
     localStorage.setItem('dataPengeluaran', JSON.stringify(dataPengeluaran));
